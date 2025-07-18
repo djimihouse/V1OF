@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "work sans", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+}
+body {
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: antiquewhite;
+}
+/* styling the headers section */
+header {
+  width: 80%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  margin: auto;
+  /* position:fixed; */
+}
+.logo {
+  background-color: red;
+}
+.logo img {
+  max-width: 50px;
+  border-radius: 50%;
+}
+.topsearch {
+}
+.nav-left {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  overflow: hidden;
+}
+.nav-right {
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+button {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: #fff;
+  padding: 10px;
+  align-items: center;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+i {
+}
+span {
+  background-color: #fff;
+}
+
+/* first section styling */
+.first-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffcd00;
+  min-height: 80vh;
+  overflow: hidden;
+  width: 100%;
+}
+h2 {
+  text-transform: capitalize;
+}
+.search-bar {
+  width: 60%;
+  padding: 10px 20px;
+  border-radius: 2px;
+  border: none;
+}
+p {
+  text-align: CENTER;
+}
+.ex-link {
+  background-color: #ffffff;
+  color: #212121;
+  padding: 15px;
+  border-radius: 2px;
+}
+
+/* list of training and courses section */
+.sec-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.tcard-conatainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+.tr-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+  align-items: center;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.img-card {
+  width: 200px;
+  height: 60%;
+}
+
+.more {
+  background-color: #212121;
+  color: #fff;
+  width: 100%;
+  padding: 15px;
+}
+.THIRD-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* the footer styling section */
+
+.footer {
+  background-color: #5c5c5c;
+  color: #fff;
+  border-top: solid 5px #090909;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  padding: 20px;
+}
